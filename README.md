@@ -13,10 +13,10 @@ The analysis was presented in three interactive dashboards tailored for stakehol
 
 Insights and recommendations are provided on the following key areas:
 
-- Credit utilization and limit trends
 - Revenue and Transactions growth
-- Customer demographics and financial health
 - Product performance and engagement
+- Customer demographics and financial health
+- Credit utilization and limit trends
 - Insights into customer retention and card expiration
 
 # Data Structure & Initial Checks
@@ -41,6 +41,47 @@ Each table is linked via client_id, allowing cross-analysis of customer demograp
 The SQL code used to create tables, establish relationships can be found [here](initial_sql.sql).
 
 The SQL code used to manipulate the data can be found 
+
+# Executive Summary
+
+Higher-income groups (>90k) manage debt more effectively, maintaining a lower debt-to-income ratio (130%), while the 30-60k income range has the highest ratio (145.9%). Despite this, high-credit-score individuals (700+) are more concentrated in lower-income groups (<30k and 30-60k). Visa leads in total revenue, generating $6,97,415 from credit transactions and $9,28,203 from debit, while seasonal trends show March as the strongest month for revenue growth (149.8) and transactions (161.0), contrasting with a sharp decline in June (-68.7 revenue, -73.3 transactions).
+
+![Cards](Images/Cards Dashboard.png)
+
+![Transaction](Images/Transactions dash.png)
+
+![Customer](Images/Cust Dash.png)
+
+# Insights deep dive
+
+### Revenue and Transactions Growth
+
+•	March saw the highest revenue growth (149.8) and transaction growth (161.0), indicating strong performance.
+•	June experienced a significant drop in revenue (-68.7) and transactions (-73.3), suggesting seasonal fluctuations or external factors affecting spending.
+•	The average transaction value is 49.46, with an average revenue of 281,597, providing a benchmark for monthly performance.
+
+### Product Performance and Engagement
+•	Visa has the highest total revenue contribution across both credit ($6,97,415) and debit ($9,28,203) transactions, indicating strong customer preference.
+•	Mastercard and Amex have significant engagement in the credit category, with $5,23,022 and $3,80,742 in revenue, respectively.
+•	Prepaid debit transactions contribute minimally ($42,489 for Visa), suggesting lower engagement with this product.
+
+### Customer Demographics and Financial Health
+•	The average credit score is 710, with the 60-90k income group having the highest average (713).
+•	The lowest credit score (709) is in both the 30-60k and <30k income groups.
+•	Gender distribution is nearly equal, with 50.8% female and 49.2% male customers.
+
+### Credit Utilization and Limit Trends
+•	The average debt-to-income ratio is 138.2%, with the highest ratio (145.9%) observed in the 30-60k income range.
+•	Higher-income groups (>90k) have a lower debt-to-income ratio (130%), suggesting better financial management.
+•	The lowest debt-to-income ratio (112.1%) is in the <30k group, possibly due to lower credit access.
+
+### Insights into Customer Retention and Card Expiration
+•	The distribution of credit scores by income shows that high-credit-score individuals (700+) are more concentrated in lower-income groups (<30k and 30-60k).
+•	The new customer trend peaked in 2020 (38 new customers), indicating a potential surge in credit card adoption.
+•	Consistent growth in new customers from 2000 to 2012, with peaks in 2006 (15), 2010 (20), and 2012 (16), suggests stable acquisition.
+
+
+
 
 
 
