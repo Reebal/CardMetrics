@@ -36,5 +36,11 @@ The company’s main database consists of three primary tables:
 3. Transactions_data – Records transaction history, including amounts, merchant details, and payment methods (chip usage, location).
 Each table is linked via client_id, allowing cross-analysis of customer demographics, spending behavior, and credit health metrics.
 
+![ER_diagram](Images/ER.png)
+
+The SQL code used to create tables, establish relationships can be found [here](initial_sql.sql).
+
+The SQL code used to manipulate the data can be found 
+
 
 
