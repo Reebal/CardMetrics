@@ -46,11 +46,11 @@ The SQL code used to manipulate the data can be found
 
 Higher-income groups (>90k) manage debt more effectively, maintaining a lower debt-to-income ratio (130%), while the 30-60k income range has the highest ratio (145.9%). Despite this, high-credit-score individuals (700+) are more concentrated in lower-income groups (<30k and 30-60k). Visa leads in total revenue, generating $6,97,415 from credit transactions and $9,28,203 from debit, while seasonal trends show March as the strongest month for revenue growth (149.8) and transactions (161.0), contrasting with a sharp decline in June (-68.7 revenue, -73.3 transactions).
 
-![Cards](Images/Cards Dashboard.png)
+![Cards](Images/Cards.png)
 
-![Transaction](Images/Transactions dash.png)
+![Transaction](Images/Transactions.png)
 
-![Customer](Images/Cust Dash.png)
+![Customer](Images/Cust.png)
 
 # Insights deep dive
 
