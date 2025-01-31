@@ -40,7 +40,7 @@ Each table is linked via client_id, allowing cross-analysis of customer demograp
 
 The SQL code used to create tables, establish relationships can be found [here](initial_sql.sql).
 
-The SQL code used to manipulate the data can be found 
+The SQL code used to manipulate the data can be found [here](credit_sql_queries.sql).
 
 # Executive Summary
 
