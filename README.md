@@ -44,7 +44,7 @@ The SQL code used to manipulate the data can be found [here](credit_sql_queries.
 
 # Executive Summary
 
-Higher-income groups (>90k) manage debt more effectively, maintaining a lower debt-to-income ratio (130%), while the 30-60k income range has the highest ratio (145.9%). Despite this, high-credit-score individuals (700+) are more concentrated in lower-income groups (<30k and 30-60k). Visa leads in total revenue, generating $6,97,415 from credit transactions and $9,28,203 from debit, while seasonal trends show March as the strongest month for revenue growth (149.8) and transactions (161.0), contrasting with a sharp decline in June (-68.7 revenue, -73.3 transactions).
+Mastercard is the most issued card brand, with 3,209 cards, making it the dominant choice among users. Credit utilization varies by income level, with lower-income groups (<$40K) maintaining lower utilization, while middle-income groups ($40K-$80K) tend to have higher utilization across all card brands. Visa leads in total revenue, generating $6,97,415 from credit transactions and $9,28,203 from debit, while seasonal trends show March as the strongest month for revenue growth (149.8) and transactions (161.0), contrasting with a sharp decline in June (-68.7 revenue, -73.3 transactions). Higher-income groups (>90k) manage debt more effectively, maintaining a lower debt-to-income ratio (130%), while the 30-60k income range has the highest ratio (145.9%). Despite this, high-credit-score individuals (700+) are more concentrated in lower-income groups (<30k and 30-60k). 
 
 ![Cards](Images/Cards.png)
 
